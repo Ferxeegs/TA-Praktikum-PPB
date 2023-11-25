@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c2128; /* Darker background color */
+    color: #b8b7b7;
+    padding: 20px;
+    padding-top: 10px; /* Added some top padding for better spacing */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    background-color: #1c2128; /* Darker background color */
+}
+
+.logo {
+    width: 200px; /* Reduced logo size for better proportion */
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.navbar {
+    position: fixed; /* Menetapkan posisi elemen */
+    bottom: 0; /* Menempatkan elemen di bagian bawah jendela */
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; /* Align text with space around for side-by-side layout */
+    padding: 10px; /* Adjusted padding for better spacing */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px; /* Adjusted margin */
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-link {
+        margin: 0 5px; /* Adjusted margin */   
+        font-size: 13px;
+    }
+}
+
+.nav-link:hover {
+    color: #f90505;
+}
+
+
+
+
+main {
+    padding-top: 80px; /* Increased top padding for better separation from header */
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}

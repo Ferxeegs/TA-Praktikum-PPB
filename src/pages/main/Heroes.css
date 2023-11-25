@@ -1,0 +1,41 @@
+.heroes-container {
+  margin-bottom: 50px;
+}
+
+.heroes-search-bar {
+  background-color: rgb(50, 58, 68);
+  width: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 165px 20px 20px 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.heroes-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.heroes-list-item:hover {
+  transform: scale(1.1);
+}
+
+.heroes-list-item {
+  margin: 10px;
+  text-align: center;
+  border: 2px solid rgb(131, 169, 199); /* Border color for hero list items */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.hero-image {
+  width: 150px;
+  height: 150px;
+}
+
+.hero-title {
+  color: rgb(131, 169, 199);
+}

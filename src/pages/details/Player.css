@@ -1,0 +1,35 @@
+/* Player.css */
+
+.card-list {
+  background-color: #3f3f4e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 200px 10px 10px 10px; /* Adjusted padding for more space at the top */
+  max-width: auto;
+}
+
+.player-card {
+  background-color: #2c2c3a;
+  color: white;
+  border-radius: 8px;
+  padding: 15px;
+  height: 200px;
+  width: calc(25% - 20px);
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+}
+
+.player-card:first-child {
+  margin-top: 0; /* Removed top margin for the first row */
+}
+
+.team-detail p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+/* Loading Spinner (optional) */
